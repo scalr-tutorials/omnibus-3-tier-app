@@ -14,6 +14,6 @@ build do
           ' --requirement ./app/requirements.txt', env: env
 
   command "mkdir -p #{install_dir}/embedded/app"
-  command "rsync -a --delete --exclude=.git --exclude=.gitignore --exclude=pybuild ./app #{install_dir}/embedded/app"
+  command "rsync -a --delete --exclude=.git --exclude=.gitignore --exclude=pybuild ./app #{install_dir}/embedded"
 
 end
