@@ -9,7 +9,6 @@ maintainer "Thomas Orozco"
 homepage "https://github.com/scalr-tutorials/3-tier-app"
 
 build_version ENV['APP_VERSION']
-override '3-tier-app', version: ENV['APP_REVISION']
 
 build_iteration 1
 
