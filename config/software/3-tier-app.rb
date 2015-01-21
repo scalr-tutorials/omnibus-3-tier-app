@@ -1,5 +1,5 @@
 name '3-tier-app'
-default_version ENV['APP_REVISION']
+default_version '__APP_VERSION__'
 
 source :git => 'https://github.com/scalr-tutorials/3-tier-app.git'
 
