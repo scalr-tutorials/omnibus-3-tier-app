@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+# Perform necessary scalr-demo-app removal steps
+# after package is uninstalled.
+#
+
+echo "scalr-demo-app has been uninstalled!"
+
+exit 0

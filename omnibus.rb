@@ -1,0 +1,1 @@
+package_dir ENV["OMNIBUS_PACKAGE_DIR"]
