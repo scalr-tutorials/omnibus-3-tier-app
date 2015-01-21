@@ -8,12 +8,8 @@ name "scalr-demo-app"
 maintainer "Thomas Orozco"
 homepage "https://github.com/scalr-tutorials/3-tier-app"
 
-if ENV['APP_VERSION']
-  build_version ENV['APP_VERSION']
-  override '3-tier-app', version: ENV['APP_VERSION']
-else
-  build_version Omnibus::BuildVersion.semver
-end
+build_version ENV['APP_VERSION']
+override '3-tier-app', version: ENV['APP_REVISION']
 
 build_iteration 1
 
