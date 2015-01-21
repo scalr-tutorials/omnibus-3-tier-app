@@ -11,7 +11,7 @@ build do
 
   command "#{install_dir}/embedded/bin/pip install" \
           " --build #{project_dir}/pybuild" \
-          ' --requirement ./app/python/requirements.txt', env: env
+          ' --requirement ./app/requirements.txt', env: env
 
   command "mkdir -p #{install_dir}/embedded/app"
   command "rsync -a --delete --exclude=.git --exclude=.gitignore --exclude=pybuild ./app #{install_dir}/embedded/app"
