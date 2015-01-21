@@ -21,7 +21,7 @@ install_dir "#{default_root}/#{name}"
 
 
 # Creates required build directories
-dependency "preparation"
+dependency "prepare"
 
 # 3-tier-app dependencies/components
 dependency 'gunicorn'
