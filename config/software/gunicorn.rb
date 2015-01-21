@@ -1,4 +1,4 @@
-name '3-tier-app'
+name 'gunicorn'
 
 dependency 'python'
 dependency 'pip'
